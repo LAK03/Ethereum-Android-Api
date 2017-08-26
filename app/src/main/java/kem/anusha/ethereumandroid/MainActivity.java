@@ -45,9 +45,9 @@ import kem.anusha.ethereumandroid.R;
  */
 public class MainActivity extends AppCompatActivity {
 
-    private final static String privateKeyRopsten = "d4a030beebf9ac08b0eff77be61e42af7015e54210f4e702fea1a3e9f9fdee8f";
-    private final static String greeterContractAddressRopsten = "0x80fb1b45cd7793606cd66d44d29cf641dfc3ebe5";
-    private final static String ropstenUrl = "http://ec2-34-210-156-191.us-west-2.compute.amazonaws.com:8545";
+    private final static String privateKeyRopsten = "d4a030beebf9ac08b0eff77be61e42af7015e54210f4e702fea1a3e9f9fdee8f"; // Add your Private key
+    private final static String greeterContractAddressRopsten = "0x80fb1b45cd7793606cd66d44d29cf641dfc3ebe5"; // Deployed contract address
+    private final static String ropstenUrl = "http://192.168.0.104:8080:8545"; // Link where contract is running
 
     private ProgressBar progressBar;
     private EditText editText;
